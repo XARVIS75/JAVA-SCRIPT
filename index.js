@@ -1,4 +1,4 @@
-let a = 4
-let b = 5 
-let sum = a+b
-console.log(sum)
+let num1 = parseInt(process.argv[2]);
+let num2 = parseInt(process.argv[3]);
+let sum = num1 + num2;
+console.log(`The sum of ${num1} and ${num2} is ${sum}`);
